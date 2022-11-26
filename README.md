@@ -135,9 +135,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl ege
 
 <Preview>
   <Story name="Default">
-    <Link href="https://storybook.js.org">
-          Learn Storybook
-        </Link>
+    <Link href="https://storybook.js.org">Learn Storybook</Link>
   </Story>
 </Preview>
 ```
