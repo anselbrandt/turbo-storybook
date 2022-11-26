@@ -25,10 +25,10 @@ Using Turborepo simplifes managing your design system monorepo, as you can have 
 This Turborepo includes the following packages and applications:
 
 - `apps/docs`: Component documentation site with Storybook
-- `packages/ui`: Core React components
+- `packages/ui`: Shared React components
 - `packages/react-utils`: Shared React utilities
 - `packages/tsconfig`: Shared `tsconfig.json`s used throughout the Turborepo
-- `packages/eslint-config-acme`: ESLint preset
+- `packages/eslint-config-custom`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/). Yarn Workspaces enables us to "hoist" dependencies that are shared between packages to the root `package.json`. This means smaller `node_modules` folders and a better local dev experience. To install a dependency for the entire monorepo, use the `-W` workspaces flag with `yarn add`.
 
@@ -100,7 +100,7 @@ Link.displayName = 'Link'
 
 When adding a new file, ensure the component is also exported from the entry `index.tsx` file:
 
-```tsx:acme-core/src/index.tsx
+```tsx:ui/src/index.tsx
 import * as React from "react";
 export { Link, type LinkProps } from "./Link";
 // Add new component exports here
