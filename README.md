@@ -125,7 +125,7 @@ import { Meta, Story, Preview, Props } from '@storybook/addon-docs/blocks';
 
 # Link
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl eget consectetur tempor, nisl nunc egestas nisi, euismod aliquam nisl nunc euismod.
+Make your links blazingly fast.
 
 ## Props
 
